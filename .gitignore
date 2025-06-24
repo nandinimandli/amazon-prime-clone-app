@@ -1,0 +1,18 @@
+# Ignore Terraform state and backups
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform folders and providers
+.terraform/
+*.exe
+
+# Ignore system or tool-specific files
+desktop.ini
+*.db
+
+# Ignore unrelated project folders
+/ecommerce-frontend-app/
+/netflixapp-terraform/
+/anaconda_projects/
+/odi_Batting_Card.csv/
+.terraform/

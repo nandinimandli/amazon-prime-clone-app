@@ -1,0 +1,51 @@
+# === Terraform ===
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+terraform.tfstate
+terraform.tfstate.backup
+
+# === Provider Executables ===
+*.exe
+*.dll
+*.so
+*.zip
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE / Editor Files ===
+.vscode/
+.idea/
+*.swp
+*~
+
+# === Logs ===
+*.log
+
+# === AWS Credentials (never commit these) ===
+*.pem
+*.key
+
+# === Node Modules (if using npm) ===
+node_modules/
+
+# === Python Virtual Envs ===
+venv/
+__pycache__/
+
+# === Unrelated Folders (relative to your DevopsProject2 location) ===
+../ecommerce-frontend-app/
+../netflixapp-terraform/
+../odi_Batting_Card.csv/
+../anaconda_projects/
+
+# === OS generated ===
+ehthumbs.db
+Icon?
